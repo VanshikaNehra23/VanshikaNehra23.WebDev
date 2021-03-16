@@ -1,0 +1,63 @@
+body{
+    background-image: url(Background.png);
+    font-family: 'Roboto', sans-serif;;
+    text-align: justify;
+}
+.head{
+    
+    color: aqua;
+    display:flex;
+}
+.head > div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+#about{
+    padding-top:140px;
+    padding-left:20px;
+    color: aqua;
+    font-size: 40px;
+}
+.para{
+    color:white; 
+    display:flex;
+    justify-content: space-around;
+}
+.para > div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#ham{
+    position:absolute; 
+	top:1; 
+	right:2%; 
+    background-size: cover;
+    
+}
+#ham img{
+height:25px;
+}
+#logo{
+    position:absolute; 
+	top:5%; 
+	left:2%;
+}
+.bottom{
+    
+    margin-top:50px;
+    bottom: 0px;
+    margin-left: 87%;
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+height: 25px;
+padding-right: 20%;
+}
+.span{
+    font-size: 25px;
+    color: aqua;
+}
